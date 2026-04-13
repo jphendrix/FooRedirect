@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "route": "/*",
+      "redirect": "https://www.google.com/search?q=abraham+lincoln",
+      "statusCode": 302
+    }
+  ]
+}
