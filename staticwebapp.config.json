@@ -10,7 +10,7 @@
       "methods": [
         "get"
       ],
-      "redirect": "/https://www.google.com/search?q=george%20w.%20bush",
+      "redirect": "https://www.google.com/search?q=george%20w.%20bush",
       "statusCode": 302,
       "allowedRoles": [
         "anonymous"
