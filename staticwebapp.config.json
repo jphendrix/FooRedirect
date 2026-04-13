@@ -4,6 +4,17 @@
       "route": "/*",
       "redirect": "https://www.google.com/search?q=abraham+lincoln",
       "statusCode": 302
+    },
+    {
+      "route": "/george",
+      "methods": [
+        "get"
+      ],
+      "redirect": "/https://www.google.com/search?q=george%20w.%20bush",
+      "statusCode": 302,
+      "allowedRoles": [
+        "anonymous"
+      ]
     }
   ]
 }
