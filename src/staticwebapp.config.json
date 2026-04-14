@@ -2,15 +2,33 @@
   "routes": [
     {
       "route": "/george",
-      "methods": ["get"],
+      "methods": [
+        "get"
+      ],
       "redirect": "https://www.google.com/search?q=george%20w.%20bush",
       "statusCode": 302,
-      "allowedRoles": ["anonymous"]
+      "allowedRoles": [
+        "anonymous"
+      ]
     },
     {
       "route": "/*",
       "redirect": "https://www.google.com/search?q=abraham+lincoln",
       "statusCode": 302
+    },
+    {
+      "route": "/monkey",
+      "methods": [
+        "get"
+      ],
+      "redirect": "https://en.wikipedia.org/wiki/Curious_George_(TV_series)",
+      "statusCode": 302,
+      "allowedRoles": [
+        "anonymous"
+      ],
+      "headers": {
+        "foo": "balls"
+      }
     }
   ]
 }
