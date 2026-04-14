@@ -12,11 +12,6 @@
       ]
     },
     {
-      "route": "/*",
-      "redirect": "https://www.google.com/search?q=abraham+lincoln",
-      "statusCode": 302
-    },
-    {
       "route": "/monkey",
       "methods": [
         "get"
@@ -29,6 +24,11 @@
       "headers": {
         "foo": "balls"
       }
+    },
+    {
+      "route": "/*",
+      "redirect": "https://www.google.com/search?q=abraham+lincoln",
+      "statusCode": 302
     }
   ]
 }
